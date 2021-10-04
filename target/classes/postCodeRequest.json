@@ -1,0 +1,41 @@
+{
+  "Name" : "Customer Name",
+  "groups": [
+    {
+      "items": [
+        {
+          "data": "SE23 2UN",
+          "mandatory": true,
+          "name": "postcode",
+          "prompt": "Enter your postcode",
+          "validateAs": "/validate/ukPostcode"
+        }
+      ],
+      "mandatory": true,
+      "name": "supplyPostcode"
+    },
+    {
+      "items": [
+        {
+          "data": "labrador_api",
+          "mandatory": true,
+          "name": "partnerReference"
+        },
+        {
+          "data": "539879FC-B859-4096-9110-38850BB8E183",
+          "mandatory": true,
+          "name": "apiKey"
+        },
+        {
+          "data": "",
+          "name": "customerReference"
+        }
+      ],
+      "mandatory": true,
+      "name": "references"
+    }
+  ],
+  "methods": [
+    "POST"
+  ]
+}
